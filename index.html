@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My first three.js app</title>
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/ed87e44c42.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="styles/home.css">
+	</head>
+	<body class="body1">
+		<div class="vanta-canvas-net">
+			<div class="nav-bar">
+				<div class="left-side">
+					<div class="projects">
+						<a href="index.html">Projects</a>
+					</div>
+				</div>
+				<div class="right-side">
+					<div class="icons">
+						<a href="https://github.com/Code-JD" class="github">
+							<i class="fab fa-github-square"></i>
+						</a>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</body>
+	<body class="body2">
+		
+
+		<script src="js/three.js"></script>
+		<script src="js/three.r199.min.js"></script>
+		<!-- <script src="js/vanta.globe.min.js"></script> -->
+		<script src="js/vanta.net.min.js"></script>
+		<script>
+			VANTA.NET({
+			  el: "body",
+			  mouseControls: true,
+			  touchControls: true,
+			  gyroControls: false,
+			  minHeight: 1000.00,
+			  minWidth: 1000.00,
+			  scale: 1.00,
+			  scaleMobile: 1.00,
+			  color: 0xff1263,
+			  backgroundColor: 0x4f20a2,
+			  points: 14.00,
+			  maxDistance: 19.00
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	font-family: 'Orbitron', sans-serif;
+
+}
+
+.nav-bar {
+	display: flex;
+	align-items: stretch;
+}
+
+.left-side > .projects {
+	/* color: white; */
+	font-size: 24px;
+	display: flex;
+}
+
+.right-side > .icons {
+	font-size: 24px;
+	display: flex;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+	text-decoration: underline;
+	color: white;
+}
