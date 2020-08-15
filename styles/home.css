@@ -11,13 +11,15 @@
 
 .left-side > .projects {
 	/* color: white; */
-	font-size: 24px;
+	font-size: 32px;
 	display: flex;
+	margin-right: 32px;
 }
 
 .right-side > .icons {
-	font-size: 24px;
+	font-size: 48px;
 	display: flex;
+	
 }
 
 a:-webkit-any-link {
