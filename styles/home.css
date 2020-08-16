@@ -1,30 +1,40 @@
 * {
 	margin: 0;
 	font-family: 'Orbitron', sans-serif;
-
 }
 
 .nav-bar {
 	display: flex;
-	align-items: stretch;
 }
 
 .left-side > .projects {
 	/* color: white; */
 	font-size: 32px;
 	display: flex;
-	margin-right: 32px;
+	padding-top: 12px;
+	margin-left: 32px;
+	margin-right: 732px;
 }
 
 .right-side > .icons {
-	font-size: 48px;
-	display: flex;
+	font-size: 44px;
+	padding-top: 10px;
+	margin-left: 732px;
+	/* display: flex; */
+	/* align-items: flex-end; */
 	
 }
+
+/* .nav-bar > .left-side > .projects {
+	display: grid;
+    grid-template-columns: 3fr;
+    grid-gap: 100px;
+} */
 
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
 	text-decoration: underline;
 	color: white;
+	text-decoration: none;
 }
